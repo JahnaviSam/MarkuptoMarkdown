@@ -1,0 +1,4 @@
+$ for i in *.md; do sed -i 's/\btext\b.*\bpreserve\b//' "$i" ;done
+$ for i in *.md; do sed -i '1d;/<revision>/d;/<\/text>/d;/<\/revision>/d;/<\/page>/d' "$i"; done
+$ for i in *.md; do sed -i  's/`//g' "$i"; done
+$ for i in *.md; do sed -i  's/<">//g' "$i"; done
