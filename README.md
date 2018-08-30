@@ -16,7 +16,7 @@ In the new portal, insert the image by giving full path in this format by just c
 
 Manual process is required since the images names in files are like - 
 Arista-7050QX-32.md:8:![Arista 7050QX-32](A7050-QX32.png "Arista 7050QX-32")
-But on downloading the image from Site, the file names are prefixed with ì300pxî. Also we will do a sync on NetworkFAbricWiki which might bring new set of images. 
+But on downloading the image from Site, the file names are prefixed with ‚Äú300px‚Äù. 
 
 
 
